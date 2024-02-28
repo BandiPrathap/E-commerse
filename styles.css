@@ -1,0 +1,86 @@
+.navbar-toggler{
+    color: white !important;
+    background-color:white !important;
+}
+
+.nav-item:hover{
+    display:inline-block;
+    width:100%;
+    transform:scaley(0.9);
+}
+.welcome-page{
+    background:url("./images/hero4.png");
+    background-size:cover;
+    object-fit: cover;
+    width:100vw;
+    height:230px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-left:50px;
+    margin-top:2px;
+    margin-bottom:10px;
+}
+
+.content h1{
+    font-size:15px;
+    margin:0px;
+    padding:0px;
+}
+.content .h1{
+    color:rgb(42, 178, 81);
+}
+.content .p1{
+    font-size:10px;
+    font-weight:bold;
+    color:rgb(77, 74, 74);
+    margin:0px;
+}
+.content p{
+    font-size:10px;
+    color:gray;
+}
+
+.button{
+    text-align:center;
+    padding:5px 30px;
+    background-image:url("./images/button.png");
+    background-size:cover;
+    width:200px;
+}
+.content a{ 
+    font-size:10px;
+    color:rgb(42,178,90);
+    font-weight:bold;
+
+}
+
+.feacture{
+    padding:20px;
+    border:2px double rgb(237, 247, 251);
+    align-items:center;
+    flex-wrap:wrap;
+    width:100%;
+}
+.feacture h1{
+    font-size:10px;
+    padding:5px 0;
+}
+.feacture img{
+    width:100px;
+    height:100px;
+}
+@media (min-width:729px){
+    .welcome-page{
+        height:800px;
+    }
+    .content .p1{
+        font-size:20px;
+    }
+    .content h1{
+        font-size:30px;
+    }
+    .content p{
+        font-size:15px;
+    }
+}
