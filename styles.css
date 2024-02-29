@@ -150,3 +150,115 @@
     font-weight:bold;
     color:rgb(10, 175, 120);
 }
+
+.banner{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-image:url("./images/banners/b2.jpg");
+    width:100vw;
+    height:90px;
+    background-size:cover;
+    color:white;
+}
+.banner p{
+    font-size:8px;
+    margin-bottom:1px;
+}
+.banner h1{
+    display:inline;
+    font-size:15px; 
+}
+.banner button{
+    font-size:10px;
+    background-color:aliceblue;
+    border:none;
+    padding:3px;
+    border-radius:4px;
+    text-align:center;
+}
+.banner-1-section{
+    display:flex;
+}
+.banner-1{
+    background-image:url("./images/banners/b17.jpg");
+}
+.banner-1 button{
+    background-color:transparent;
+    border:1px solid white;
+    color:white;
+    width:50px;
+    font-size:6px;
+}
+.banner-2{
+    background-image:url("./images/banners/b10.jpg");
+}
+.banner-2 button{
+    background-color:rgb(4, 101, 70);
+    border:none;
+    color:white;
+    width:40px;
+    font-size:6px;
+}
+.banner-1-2{
+    width:200px;
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-size:cover;
+    object-fit:cover;
+    color:white;
+}
+.banner-1-2 p{
+    font-size:8px;
+    width:100px;
+    margin-bottom:0;
+    color:rgb(249, 235, 235);
+}
+.banner-1-2 h1{
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:1px;
+}
+.banner-1-1-section{
+    display:flex;
+}
+.banner-1-1{
+    text-align:center;
+    margin-right:8px;
+}
+.banner-1-1-a{
+    background-image:url("./images/banners/b7.jpg");
+}
+.banner-1-1-b{
+    background-image:url("./images/banners/b4.jpg");
+}
+.banner-1-1-c{
+    background-image:url("./images/banners/b18.jpg");
+}
+
+.banner-1-1 h1{
+    font-size:10px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top:30px;
+    color:white;
+    background-color:black;
+    padding:10px;
+}
+footer h1{
+    font-size:22px;
+}
+footer span{
+    font-weight:bold;
+    font-size:14px;
+}
+.Follow-Us{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
