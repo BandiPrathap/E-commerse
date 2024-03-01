@@ -2,7 +2,9 @@
     color: white !important;
     background-color:white !important;
 }
-
+.active{
+    color:aqua !important;
+}
 .nav-item:hover{
     display:inline-block;
     width:100%;
